@@ -38,36 +38,6 @@ void insertar(ABB &arbol, int x)
           insertar(arbol->der, x);
 }
 
-void preOrden(ABB arbol)
-{
-     if(arbol!=NULL)
-     {
-          cout << arbol->nro <<" ";
-          preOrden(arbol->izq);
-          preOrden(arbol->der);
-     }
-}
-
-void enOrden(ABB arbol)
-{
-     if(arbol!=NULL)
-     {
-          enOrden(arbol->izq);
-          cout << arbol->nro << " ";
-          enOrden(arbol->der);
-     }
-}
-
-void postOrden(ABB arbol)
-{
-     if(arbol!=NULL)
-     {
-          postOrden(arbol->izq);
-          postOrden(arbol->der);
-          cout << arbol->nro << " ";
-     }
-}
-
 void verArbol(ABB arbol, int n)
 {
      if(arbol==NULL)
@@ -104,12 +74,6 @@ int main()
 
     cout << "\n Mostrando ABB \n\n";
     verArbol( arbol, 0);
-
-    cout << "\n Recorridos del ABB";
-
-    cout << "\n\n En orden   :  ";   enOrden(arbol);
-    cout << "\n\n Pre Orden  :  ";   preOrden(arbol);
-    cout << "\n\n Post Orden :  ";   postOrden(arbol);
 
     cout << endl << endl;
 
