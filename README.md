@@ -6,18 +6,6 @@ Integrantes: Roger Infa Sanchez, Frank Duarte Oruro, Olger Quispe Vilca
 ¡Hola a todos! En esta ocasión, quiero explicarles el código de un Árbol Binario de Búsqueda en C++. Este código nos permitirá crear un árbol binario de búsqueda y visualizarlo en forma de árbol. 
 
 ## Descripción del código
-Aquí tienes una explicación línea por línea del código:
-
-```cpp
-/* Integrantes:
-    @Roger Infa Sanchez
-    @Frank Duarte Oruro
-    @Olger Quispe Vilca
-*/
-```
-
-Estas líneas de código son comentarios que indican los nombres de los integrantes del grupo.
-
 ```cpp
 #include <iostream>
 #include <cstdlib>
